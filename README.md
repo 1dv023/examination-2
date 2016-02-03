@@ -15,4 +15,4 @@ Users must be able to register themselves and must be able to login to the appli
 
 Anonymous users will only be able to view snippets. Authenticated users, in addition to view, must also be able to create, edit and delete snippets.  Because of this the application must support some basic authentication and authorization. Only use of the session store, using the [express-session](https://github.com/expressjs/session) module, is allowed for implementation of authentication and authorization. You must not use any modules like Passport, etc., to authenticate or authorize.
 
-If a user tries to access a page which requires the user to login the application must return the status code 403 (forbidden).
+If a user tries to access a resource which requires the user to login the application must return the status code 403 (forbidden).

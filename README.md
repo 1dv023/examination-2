@@ -1,6 +1,6 @@
 #Examination 2 - Sticky Snippets
 
-In this assignment, you will create a web application for persistent handling of [snippets](https://en.wikipedia.org/wiki/Snippet_(programming)) using an application framework and an object data modeling library for MongDB.
+In this assignment, you will create a web application for persistent handling of [snippets](https://en.wikipedia.org/wiki/Snippet_(programming)) using an application framework and an object data modeling library for MongoDB.
 
 >###Deadline
 Friday, March 4, 2016 7:00 AM 

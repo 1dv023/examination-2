@@ -16,3 +16,10 @@ Users must be able to register themselves and must be able to login to the appli
 Anonymous users will only be able to view snippets. Authenticated users, in addition to view, must also be able to create, edit and delete snippets.  Because of this the application must support some basic authentication and authorization. Only use of the session store, using the [express-session](https://github.com/expressjs/session) module, is allowed for implementation of authentication and authorization. You must not use any modules like Passport, etc., to authenticate or authorize.
 
 If a user tries to access a resource which requires the user to be logged in, the application must return the status code 403 (forbidden). Of course, when necessary, the application must also return the status code 404 (not found) as well as 500 (internal error).
+
+##Setup
+1. Clone your examination repository: `git clone https://github.com/1dv023/<USERNAME>-examination-2`
+2. Pull the [node-mongodb-vagrant](https://github.com/1dv023/node-mongodb-vagrant) into the repository: `git pull https://github.com/1dv023/node-mongodb-vagrant.git`
+3. Pull and merge the [javascript-style-guide](https://github.com/CS-LNU-Learning-Objects/javascript-style-guide) into the repository: `git pull https://github.com/CS-LNU-Learning-Objects/javascript-style-guide` or write your own style guide files.
+4. Run the following from your terminal: `vagrant up`.
+5. SSH into the machine: `vagrant ssh`.

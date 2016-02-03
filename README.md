@@ -20,6 +20,6 @@ If a user tries to access a resource which requires the user to be logged in, th
 ##Setup
 1. Clone your examination repository: `git clone https://github.com/1dv023/<USERNAME>-examination-2`
 2. Pull the [node-mongodb-vagrant](https://github.com/1dv023/node-mongodb-vagrant) into the repository: `git pull https://github.com/1dv023/node-mongodb-vagrant.git`
-3. Pull and merge the [javascript-style-guide](https://github.com/CS-LNU-Learning-Objects/javascript-style-guide) into the repository: `git pull https://github.com/CS-LNU-Learning-Objects/javascript-style-guide` or write your own style guide files.
+3. Pull and merge the [javascript-style-guide](https://github.com/CS-LNU-Learning-Objects/javascript-style-guide) into the repository: `git pull https://github.com/CS-LNU-Learning-Objects/javascript-style-guide`. (Or write your own style guide files.)
 4. Run the following from your terminal: `vagrant up`.
 5. SSH into the machine: `vagrant ssh`.

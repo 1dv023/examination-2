@@ -17,6 +17,8 @@ Anonymous users will only be able to view snippets. Authenticated users, in addi
 
 If a user tries to access a resource which requires the user to be logged in, the application must return the status code 403 (forbidden). Of course, when necessary, the application must also return the status code 404 (not found) as well as 500 (internal error).
 
+As far as posssible, the application must be protected from vulnerable attacks.
+
 ##Setup
 1. Clone your examination repository: `git clone https://github.com/1dv023/<USERNAME>-examination-2`
 2. Pull the [node-mongodb-vagrant](https://github.com/1dv023/node-mongodb-vagrant) into the repository: `git pull https://github.com/1dv023/node-mongodb-vagrant.git`

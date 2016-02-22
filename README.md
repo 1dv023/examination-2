@@ -32,4 +32,4 @@ For those who wants to expand functionality in the application beyond the standa
 * Add support for just showing snippets thats belongs to one tag
 
 ## Examination
-You will book a time for this and the oral exam which is 4/3 between 0900-1600. Availible times to book will be published on the course web page that week. The exam is graded U / G and VG.
+You will book a time for this and the oral exam which is 4/3 between 0900-1600. Availible times to book will be published on the course web page that week. The exam is graded U, G or VG.

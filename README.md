@@ -25,3 +25,11 @@ As far as posssible, the application must be protected from vulnerable attacks.
 3. Pull and merge the [javascript-style-guide](https://github.com/CS-LNU-Learning-Objects/javascript-style-guide) into the repository: `git pull https://github.com/CS-LNU-Learning-Objects/javascript-style-guide`. (Or write your own style guide files.)
 4. Run the following from your terminal: `vagrant up`.
 5. SSH into the machine: `vagrant ssh`.
+
+## Extra features [optional]
+For those who wants to expand functionality in the application beyond the standard requirements for passing this assignment (see above) feel free to do that- Some examples of this could be:
+* Add support for [tagging](https://en.wikipedia.org/wiki/Tag_(metadata)) each snippet by one or more tags
+* Add support for just showing snippets thats belongs to one tag
+
+## Examination
+You will book a time for this and the oral exam which is 4/3 between 0900-1600. Availible times to book will be published on the course web page that week. The exam is graded U / G and VG.

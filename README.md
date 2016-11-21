@@ -2,11 +2,6 @@
 
 In this assignment, you will create a web application for persistent handling of [snippets](https://en.wikipedia.org/wiki/Snippet_(programming)) using an application framework and an object data modeling library for MongoDB.
 
->###Deadline
-Friday, March 4, 2016 7:00 AM 
-###Submission Instructions
-Submit your solution, by creating a release on GitHub named “v1.0″. In case of changes after creating a release, please increment the minor version number, i.e. “v1.1″, “v1.22", etc.
-
 ##Requirements
 
 The application in [Node.js](https://nodejs.org/en/) will use [Express.js](http://expressjs.com/) as the application  framework and [Mongoose](http://mongoosejs.com/) as  the object modeling library. The application must have full CRUD functionality regarding snippets, whereby a user must be able to create, read, update and delete snippets.
@@ -19,7 +14,10 @@ If a user tries to access a resource which requires the user to be logged in, th
 
 As far as posssible, the application must be protected from vulnerable attacks.
 
-##Setup
+##Setup 
+
+It is otional to use our vagrants but if you want follow the below steps.
+
 1. Clone your examination repository: `git clone https://github.com/1dv023/<USERNAME>-examination-2`
 2. Pull the [node-mongodb-vagrant](https://github.com/1dv023/node-mongodb-vagrant) into the repository: `git pull https://github.com/1dv023/node-mongodb-vagrant.git`
 3. Pull and merge the [javascript-style-guide](https://github.com/CS-LNU-Learning-Objects/javascript-style-guide) into the repository: `git pull https://github.com/CS-LNU-Learning-Objects/javascript-style-guide`. (Or write your own style guide files.)
@@ -30,6 +28,3 @@ As far as posssible, the application must be protected from vulnerable attacks.
 For those who wants to expand functionality in the application beyond the standard requirements for passing this assignment (see above) feel free to do that- Some examples of this could be:
 * Add support for [tagging](https://en.wikipedia.org/wiki/Tag_(metadata)) each snippet by one or more tags
 * Add support for just showing snippets thats belongs to one tag
-
-## Examination
-You will book a time for this and the oral exam which is 4/3 between 0900-1600. Availible times to book will be published on the course web page that week. The exam is graded U, G or VG.
